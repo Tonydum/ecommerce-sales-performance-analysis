@@ -1,4 +1,4 @@
---- Q1. What is monthly revenue, and how is revenue trending over time?
+--- Q1. What is the monthly revenue, and how is revenue trending over time?
 
 SELECT
 	d.year,
@@ -340,6 +340,7 @@ FROM monthly_revenue
 ORDER BY 
 	year, 
 	month;
+
 
 
 
