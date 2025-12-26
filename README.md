@@ -100,8 +100,6 @@ ecommerce-sales-performance-analysis/
 
 ├── README.md
 
-├── INSIGHTS.md
-
 │
 
 ├── sql/
