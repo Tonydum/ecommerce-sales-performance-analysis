@@ -95,13 +95,21 @@ The analysis followed a structured workflow:
 ## Project Structure
 
 ecommerce-sales-performance-analysis/
+
 │
+
 ├── README.md
+
 ├── INSIGHTS.md
+
 │
+
 ├── sql/
+
 │   ├── 01_model.sql        -- data modeling and table creation
+
 │   ├── 02_analysis.sql     -- business question queries
+
 │   └── 03_validation.sql   -- data quality checks
 
 ---
