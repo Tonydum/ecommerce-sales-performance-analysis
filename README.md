@@ -93,3 +93,21 @@ The analysis followed a structured workflow:
 ---
 
 ## Project Structure
+
+ecommerce-sales-performance-analysis/
+│
+├── README.md
+├── INSIGHTS.md
+│
+├── sql/
+│   ├── 01_model.sql        -- data modeling and table creation
+│   ├── 02_analysis.sql     -- business question queries
+│   └── 03_validation.sql   -- data quality checks
+
+---
+
+## Notes & Assumptions
+- The analysis is based on a single year of transactional data.
+- Revenue values are assumed to be final and do not account for refunds or cancellations.
+- Insights are intended to guide strategic discussion rather than serve as formal forecasts.
+
