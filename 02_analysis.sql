@@ -1,7 +1,3 @@
-SELECT 
-	*
-FROM ecommerce.dim_platform;
-
 --- Q1. What is monthly revenue, and how is revenue trending over time?
 
 SELECT
@@ -23,7 +19,7 @@ ORDER BY d.month;
 -- Q2. What is the cumulative (running) revenue over time?
 WITH monthly_revenue AS (
 SELECT
-	year,
+	d.year,
 	d.month,
 	d.month_name,
 	SUM(f.total_amount) AS total_revenue
@@ -344,6 +340,7 @@ FROM monthly_revenue
 ORDER BY 
 	year, 
 	month;
+
 
 
 
